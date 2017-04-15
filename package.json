@@ -1,0 +1,38 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "description": "React Starter-Template to build cool Apps with.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larsb90/react-template.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "template",
+    "react-template"
+  ],
+  "author": "Lars Braitinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larsb90/react-template/issues"
+  },
+  "homepage": "https://github.com/larsb90/react-template#readme",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
